@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ae0c79c31db89c75",
+        "id": "1b1c0f60d7519642",
         "type": "tabs",
         "children": [
           {
-            "id": "386d7893936ae899",
+            "id": "fee39888c9a34687",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Testing note.md",
-                "staged": false,
-                "hash": "168ca79af89980b4828e47395f25b4db440f1c5d"
+                "file": "Чистый код/Системы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17ebd390a2cae46d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Чистый код/Формирование архитектуры.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd8412ed2bd40da2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Чистый код/Многопоточность.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Чистый код/Многопоточность.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Чистый код/Многопоточность.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Чистый код/Многопоточность.md"
+              }
             }
           },
           {
@@ -152,13 +180,28 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "386d7893936ae899",
+  "active": "87d6affc1ca91db3",
   "lastOpenFiles": [
+    "Чистый код/Формирование архитектуры.md",
+    "Чистый код/Многопоточность.md",
+    "Чистый код/Системы.md",
+    "Чистый код/Медиа/Pasted image 20240827001524.png",
+    "Чистый код/Медиа",
+    "Чистый код/Классы.md",
+    "Чистый код/Медиа/Pasted image 20240827001548.png",
+    "Чистый код/Модульные тесты.md",
+    "Чистый код/Границы.md",
+    "Без названия",
+    "Чистый код/Обработка ошибок.md",
+    "Чистый код/Объекты и структуры данных.md",
+    "Чистый код/Форматирование.md",
+    "Чистый код/Комментарии.md",
+    "Чистый код/Функции.md",
+    "Testing note.md",
+    "Чистый код",
     "Безымянная Kanban-доска 1.md",
     "Безымянная Kanban-доска.md",
-    "Testing note.md",
     "Test Dir/Inner Note.md",
-    "Без названия.md",
     "Test Dir"
   ]
 }
