@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "802c490a6197600e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae0c79c31db89c75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "386d7893936ae899",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "Testing note.md",
+                "staged": false,
+                "hash": "168ca79af89980b4828e47395f25b4db440f1c5d"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aad17e679190348e",
+    "type": "split",
+    "children": [
+      {
+        "id": "66987ac80cdc90a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87d6affc1ca91db3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ddd0a69a0677a2a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b74898a210a9ffaa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "556eb2c59d56c8ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ba5e6cc47934c5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec8a793fada9b7bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "df0c9310cddb08b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b188892556b5d850",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c28777c785134094",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "000d5ae099dc4ee8",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-kanban:Создать новую доску": false
+    }
+  },
+  "active": "386d7893936ae899",
+  "lastOpenFiles": [
+    "Безымянная Kanban-доска 1.md",
+    "Безымянная Kanban-доска.md",
+    "Testing note.md",
+    "Test Dir/Inner Note.md",
+    "Без названия.md",
+    "Test Dir"
+  ]
+}
