@@ -118,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 252.5
   },
   "right": {
     "id": "556eb2c59d56c8ed",
@@ -204,7 +204,7 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "508500a6a1d73094",
+  "active": "87d6affc1ca91db3",
   "lastOpenFiles": [
     "Основы технологий Баз Данных/Введение.md",
     "Основы технологий Баз Данных/Теоретические основы БД.md",
