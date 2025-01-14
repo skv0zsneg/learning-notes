@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "37772bb67586f874",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea380903b9517c31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ba5ec1394d4ac0a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2bb5a534c8341013",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2bd92584987d318b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Файловый менеджер"
+        }
+      },
+      {
+        "id": "09aab61794447074",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Поиск"
+        }
+      },
+      {
+        "id": "ad2ccfc83fd347e3",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Теги"
+        }
+      },
+      {
+        "id": "6cb52b468f590baa",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Закладки"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "15c710cbfeeabf44",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "194543155835c0dd",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Обратные ссылки"
+        }
+      },
+      {
+        "id": "cb67b7c401d57303",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Исходящие ссылки"
+        }
+      },
+      {
+        "id": "8e253242325d9dc8",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {},
+          "icon": "lucide-list",
+          "title": "Структура"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-kanban:Создать новую доску": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "0ba5ec1394d4ac0a",
+  "lastOpenFiles": [
+    "Безымянная Kanban-доска.md",
+    "Чистый код/Многопоточность.md",
+    "Основы технологий Баз Данных/Теоретические основы БД/Теоретические основы БД.md",
+    "Чистый код/Границы.md",
+    "README.md",
+    "students_scheme.drawio (1).png",
+    "Основы технологий Баз Данных/Медиа/C4EEC432-4E6E-462D-8AD0-A46315B1C70C.jpeg",
+    "Основы технологий Баз Данных/Медиа/5249383878022522550.jpg",
+    "Основы технологий Баз Данных/Медиа/441F3EB5-0CA0-4307-8813-534E307BDE4C.jpeg",
+    "Основы технологий Баз Данных/Медиа/BCB25553-2C8C-4F09-81E9-1A427AFA74BD.jpeg",
+    "Основы технологий Баз Данных/Медиа/5249383878022522549.jpg",
+    "Основы технологий Баз Данных/Медиа",
+    "Основы технологий Баз Данных/Введение.md",
+    "Основы технологий Баз Данных",
+    "Основы технологий Баз Данных/Медиа/5249383878022522548.jpg",
+    "Основы технологий Баз Данных/Теоретические основы БД/Упражнения.md",
+    "Основы технологий Баз Данных/Теоретические основы БД",
+    "Основы технологий Баз Данных/Медиа/students_scheme.drawio",
+    "Чистый код/Медиа/Pasted image 20240827001524.png",
+    "Чистый код/Медиа/Pasted image 20240827001548.png",
+    "Чистый код/Объекты и структуры данных.md",
+    "Чистый код/Функции.md",
+    "Чистый код/Системы.md",
+    "Чистый код/Медиа",
+    "Чистый код/Модульные тесты.md",
+    "Чистый код/Форматирование.md",
+    "Чистый код/Комментарии.md",
+    "Чистый код/Классы.md",
+    "Чистый код/Обработка ошибок.md",
+    "Чистый код/Формирование архитектуры.md",
+    "Чистый код"
+  ]
+}
