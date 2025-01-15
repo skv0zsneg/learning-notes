@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea380903b9517c31",
+        "id": "8de0c85c89c21f5f",
         "type": "tabs",
         "children": [
           {
-            "id": "0ba5ec1394d4ac0a",
+            "id": "814241fc0bca3fa6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -145,11 +145,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "2bd92584987d318b",
+  "active": "814241fc0bca3fa6",
   "lastOpenFiles": [
-    "From bits to C&C++",
-    "From bits to C&C++/Основы.md",
+    "Безымянная Kanban-доска 1.md",
     "Безымянная Kanban-доска.md",
+    "From bits to C&C++/Основы.md",
+    "From bits to C&C++",
     "Чистый код/Многопоточность.md",
     "Основы технологий Баз Данных/Теоретические основы БД/Теоретические основы БД.md",
     "Чистый код/Границы.md",
