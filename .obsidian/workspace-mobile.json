@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8de0c85c89c21f5f",
+        "id": "e2de48469a5698c5",
         "type": "tabs",
         "children": [
           {
-            "id": "814241fc0bca3fa6",
+            "id": "5dd64e5ab335e5f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "From bits to C&C++/Основы.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Основы"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -95,7 +91,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "From bits to C&C++/Основы.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -145,11 +140,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "814241fc0bca3fa6",
+  "active": "5dd64e5ab335e5f2",
   "lastOpenFiles": [
+    "From bits to C&C++/Основы.md",
+    "IMG_0013.png",
     "Безымянная Kanban-доска 1.md",
     "Безымянная Kanban-доска.md",
-    "From bits to C&C++/Основы.md",
     "From bits to C&C++",
     "Чистый код/Многопоточность.md",
     "Основы технологий Баз Данных/Теоретические основы БД/Теоретические основы БД.md",
