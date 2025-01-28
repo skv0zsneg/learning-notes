@@ -11,10 +11,14 @@
             "id": "5dd64e5ab335e5f2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "From bits to C&C++/Основы.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Основы"
             }
           }
         ]
@@ -91,6 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "From bits to C&C++/Основы.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
