@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e2de48469a5698c5",
+        "id": "a440beb715bad54d",
         "type": "tabs",
         "children": [
           {
-            "id": "5dd64e5ab335e5f2",
+            "id": "cd8d191b35439361",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,7 +36,8 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabetical",
+            "autoReveal": false
           },
           "icon": "lucide-folder-closed",
           "title": "Файловый менеджер"
@@ -145,10 +146,12 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "5dd64e5ab335e5f2",
+  "active": "cd8d191b35439361",
   "lastOpenFiles": [
+    "From bits to C&C++/Медиа/IMG_0013.png",
     "From bits to C&C++/Основы.md",
-    "IMG_0013.png",
+    "From bits to C&C++/Медиа",
+    "From bits to C&C++/Медиа/IMG_0015.jpeg",
     "Безымянная Kanban-доска 1.md",
     "Безымянная Kanban-доска.md",
     "From bits to C&C++",
@@ -170,7 +173,6 @@
     "Основы технологий Баз Данных/Теоретические основы БД",
     "Основы технологий Баз Данных/Медиа/students_scheme.drawio",
     "Чистый код/Медиа/Pasted image 20240827001524.png",
-    "Чистый код/Медиа/Pasted image 20240827001548.png",
     "Чистый код/Объекты и структуры данных.md",
     "Чистый код/Функции.md",
     "Чистый код/Системы.md",
