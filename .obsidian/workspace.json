@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/1. Two Sum.md",
+                "file": "Грокаем Алгоритмы/3 Жадные Алгоритмы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Two Sum"
+              "title": "3 Жадные Алгоритмы"
             }
           }
         ]
@@ -178,8 +178,13 @@
   },
   "active": "4adcc90488b538a1",
   "lastOpenFiles": [
-    "Leetcode/141. Linked List Cycle.md",
+    "Pasted image 20251018150723.png",
+    "Pasted image 20251018150417.png",
+    "Грокаем Алгоритмы/1 Поиск в ширину.md",
+    "Грокаем Алгоритмы/2 Алгоритм Дейкстры.md",
+    "Грокаем Алгоритмы/3 Жадные Алгоритмы.md",
     "Leetcode/1. Two Sum.md",
+    "Leetcode/141. Linked List Cycle.md",
     "README.md",
     "Leetcode",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Медиа/Pasted image 20251011001358.png",
@@ -199,9 +204,6 @@
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Биты и Типы данных/6 Другие представления.md",
     "Rust",
     "Без названия.md",
-    "Грокаем Алгоритмы/3 Жадные Алгоритмы.md",
-    "Грокаем Алгоритмы/1 Поиск в ширину.md",
-    "Грокаем Алгоритмы/2 Алгоритм Дейкстры.md",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Медиа/Pasted image 20250429215152.png",
     "Грокаем Алгоритмы/Медиа/Pasted image 20250406134041.png",
     "Грокаем Алгоритмы/Медиа/Pasted image 20250406133106.png",
@@ -218,11 +220,9 @@
     "temp.md",
     "Основы технологий Баз Данных/Теоретические основы БД/Упражнения.md",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Медиа/IMG_0015.jpeg",
-    "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Медиа/IMG_0013.png",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Медиа",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond",
     "Основы технологий Баз Данных/Медиа/students_scheme.drawio.crswap",
-    "Основы технологий Баз Данных/Теоретические основы БД/Теоретические основы БД.md",
-    "Основы технологий Баз Данных/Введение.md"
+    "Основы технологий Баз Данных/Теоретические основы БД/Теоретические основы БД.md"
   ]
 }
