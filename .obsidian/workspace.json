@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Грокаем Алгоритмы/3 Жадные Алгоритмы.md",
+                "file": "Leetcode/704. Binary Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3 Жадные Алгоритмы"
+              "title": "704. Binary Search"
             }
           }
         ]
@@ -178,10 +178,11 @@
   },
   "active": "4adcc90488b538a1",
   "lastOpenFiles": [
+    "Leetcode/374. Guess Number Higher or Lower.md",
+    "Leetcode/704. Binary Search.md",
+    "Грокаем Алгоритмы/3 Жадные Алгоритмы.md",
     "Грокаем Алгоритмы/Медиа/Pasted image 20251106232415.png",
     "Pasted image 20251106232410.png",
-    "Грокаем Алгоритмы/3 Жадные Алгоритмы.md",
-    "Leetcode/374. Guess Number Higher or Lower.md",
     "Leetcode/141. Linked List Cycle.md",
     "Leetcode/1. Two Sum.md",
     "Leetcode/Медиа/Pasted image 20251027230335.png",
