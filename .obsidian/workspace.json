@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/217. Contains Duplicate.md",
+                "file": "Leetcode/36. Valid Sudoku.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "217. Contains Duplicate"
+              "title": "36. Valid Sudoku"
             }
           },
           {
@@ -190,10 +190,12 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "8218a33d771a5721",
+  "active": "87d6affc1ca91db3",
   "lastOpenFiles": [
-    "Leetcode/242. Valid Anagram.md",
+    "Leetcode/Медиа/Pasted image 20251212221056.png",
     "Leetcode/217. Contains Duplicate.md",
+    "Leetcode/36. Valid Sudoku.md",
+    "Leetcode/242. Valid Anagram.md",
     "Leetcode/141. Linked List Cycle.md",
     "Архитектура и Паттерны/Слоистая, Многоуровневая (Layered Architecture) - Aрхитектура.md",
     "Архитектура и Паттерны/Репозиторий (Repository) - Паттерн.md",
@@ -229,8 +231,6 @@
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Биты и Типы данных/2 Целочисленный (Integer) тип данных.md",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Биты и Типы данных/3 Преобразования между двоичным и десятичным форматом.md",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Биты и Типы данных/4 Битовые операции. Часть 1 - Арифметика.md",
-    "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Цифровые Логические Структуры/1 Описание раздела.md",
-    "Rust/Основы.md",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Цифровые Логические Структуры",
     "Rust",
     "Грокаем Алгоритмы/Медиа",
