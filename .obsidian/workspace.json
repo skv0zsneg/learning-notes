@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Архитектура и Паттерны/Слоистая, Многоуровневая (Layered Architecture) - Aрхитектура.md",
+                "file": "Leetcode/217. Contains Duplicate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Слоистая, Многоуровневая (Layered Architecture) - Aрхитектура"
+              "title": "217. Contains Duplicate"
             }
           },
           {
@@ -192,15 +192,16 @@
   },
   "active": "8218a33d771a5721",
   "lastOpenFiles": [
-    "Архитектура и Паттерны/Репозиторий (Repository) - Паттерн.md",
+    "Leetcode/242. Valid Anagram.md",
+    "Leetcode/217. Contains Duplicate.md",
+    "Leetcode/141. Linked List Cycle.md",
     "Архитектура и Паттерны/Слоистая, Многоуровневая (Layered Architecture) - Aрхитектура.md",
+    "Архитектура и Паттерны/Репозиторий (Repository) - Паттерн.md",
     "Репозиторий.md",
     "Leetcode/100. Same Tree.md",
     "Архитектура и Паттерны",
     "Leetcode/704. Binary Search.md",
     "Leetcode/374. Guess Number Higher or Lower.md",
-    "Leetcode/242. Valid Anagram.md",
-    "Leetcode/141. Linked List Cycle.md",
     "Leetcode/136. Single Number.md",
     "Leetcode/101. Symmetric Tree.md",
     "Leetcode/1. Two Sum.md",
@@ -230,7 +231,6 @@
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Биты и Типы данных/4 Битовые операции. Часть 1 - Арифметика.md",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Цифровые Логические Структуры/1 Описание раздела.md",
     "Rust/Основы.md",
-    "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Основы.md",
     "Intruduction To Computing Systems From Bits & Gates To C&C++ & Beyond/Цифровые Логические Структуры",
     "Rust",
     "Грокаем Алгоритмы/Медиа",
