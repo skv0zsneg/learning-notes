@@ -9,11 +9,12 @@
 
 ### Модуль лексического анализа
 
-**Лексический анализ**
+1. **Лексический анализ**
 Текст кода разбивается на токены - слова и символы (`if`, `+`, `42`, `'hello'`)
 
-**Синтаксический анализ**
-Построение структуры дерево из полученных выше токенов для отражения программы. 
+2. **Синтаксический анализ**
+
+**Построение структуры CST дерева** из полученных выше токенов для отражения программы. 
 
 В CPython (здесь и везде далее для версии 3.9) эти шаги выполняются в функции `PyParser_ParseFileObject` (`Parser/parsetok.c`)
 	1. Создается экземпляр состояния токенизатора в функции `PyTokenizer_FromFile` (`Parser/tokenizer.c`)
@@ -24,3 +25,66 @@
 
 ![[Pasted image 20251225000224.png]]
 
+Определение узла из `Include/node.h`
+```c
+typedef struct _node {
+    short               n_type;
+    char                *n_str;
+    int                 n_lineno;
+    int                 n_col_offset;
+    int                 n_nchildren;
+    struct _node        *n_child;
+    int                 n_end_lineno;
+    int                 n_end_col_offset;
+} node;
+```
+
+**Построение AST дерева** из полученного CST дерева
+
+*А в чем разница между CST и AST?*
+CST решает задачу правильности используемого синтаксиса языка - то, как код должен выглядеть а не как он должен быть понят. AST уже решает проблему интерпретации смысла - он "очищается" от синтаксического шума.
+Пример: `(a + b) * c` и `a + b * c` c точки зрения грамматики (CST) оба выражения валидны, с точки зрения смысла (AST) они соверешнно разные (разный приоритет операций).
+
+В CPython реализация ast лежит в `Python/ast.c` типы узлов AST используемые в модуле берутся из `Include/Python-ast.h`, который генерируется c помощью `Parser/asdl_c.py` через файл написанный на специальном синтаксисе ASDL 5 `Parser/Python.asdl`.  
+
+Входной точкой для формирования AST является функция `PyAST_FromNodeObject` (`Python/ast.c`). Функция по своей сути - это большой swich case для результата `TYPE(n)`, где `n` - корневая нода CTS, а `TYPE` - макрос, используемый для определения типа узла CST.
+
+Функция возвращает тип `mod_ty` Python модуль, сгенерированный из `Python-ast.h`. `mod_ty` - это контейнер для 4-х типов модулей Python: `Module`, (для запуска через файл `python main.py`) `Interactive` (для запуска в REPL), `Expression` (для запуска конкретного выражения через `eval`), `FunctionType` (очень редкое Python C API специфичное).
+
+Для каждого типа оператора есть своя функция `ast_for_xxx`преобразования CST узла к AST узлу. Например, для узла возведения в степень `x ** y` написана функция
+
+```c
+static expr_ty
+ast_for_power(struct compiling *c, const node *n)
+{
+    /* power: atom trailer* ('**' factor)*
+     */
+    expr_ty e;
+    REQ(n, power);
+    e = ast_for_atom_expr(c, CHILD(n, 0));
+    if (!e)
+        return NULL;
+    if (NCH(n) == 1)
+        return e;
+    if (TYPE(CHILD(n, NCH(n) - 1)) == factor) {
+        expr_ty f = ast_for_expr(c, CHILD(n, NCH(n) - 1));
+        if (!f)
+            return NULL;
+        e = BinOp(e, Pow, f, LINENO(n), n->n_col_offset,
+                  n->n_end_lineno, n->n_end_col_offset, c->c_arena);
+    }
+    return e;
+}
+```
+
+По этой функции будет построена часть дерева вида
+
+```
+(expr)
+  |
+  \/
+(BinOp)
+  |    |     |
+  \/   \/    \/
+(Num) (Pow) (Num)
+```
